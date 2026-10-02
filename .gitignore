@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+.next/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
